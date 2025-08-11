@@ -23,6 +23,7 @@ This repository contains organized examples and exercises as I learn Python, cov
 
 
 python-learning/
+----------------------------------------
 │
 ├── 00_hello_world/
 │   └── hello_world.py
