@@ -1,21 +1,3 @@
-1. Enable Git in PyCharm
-Go to File > Settings > Version Control > Git.
-
-Make sure the Path to Git executable is correctly set.
-
-On Windows: usually C:\Program Files\Git\bin\git.exe
-
-On macOS/Linux: usually /usr/bin/git
-
-Click Test to confirm it works.
-
-2. Initialize Git in Your Project
-If Git is not already initialized:
-
-Go to VCS > Enable Version Control Integration.
-
-Choose Git from the dropdown.
-
 PyCharm will initialize a Git repository in your project folder.
 
 🚀 Steps to Push Code
