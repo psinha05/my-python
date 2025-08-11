@@ -1,0 +1,57 @@
+1. Enable Git in PyCharm
+Go to File > Settings > Version Control > Git.
+
+Make sure the Path to Git executable is correctly set.
+
+On Windows: usually C:\Program Files\Git\bin\git.exe
+
+On macOS/Linux: usually /usr/bin/git
+
+Click Test to confirm it works.
+
+2. Initialize Git in Your Project
+If Git is not already initialized:
+
+Go to VCS > Enable Version Control Integration.
+
+Choose Git from the dropdown.
+
+PyCharm will initialize a Git repository in your project folder.
+
+🚀 Steps to Push Code
+1. Add Files to Git
+Go to the Git tab (usually bottom-right) or right-click on files > Git > Add.
+
+Or press Ctrl+Alt+A (Windows/Linux) or Cmd+Alt+A (Mac).
+
+2. Commit Changes
+Go to VCS > Commit or press Ctrl+K / Cmd+K.
+
+Write a commit message and select the files to commit.
+
+Click Commit or Commit and Push.
+
+3. Set Remote Repository (if not yet set)
+Go to Git > Manage Remotes.
+
+Click + and paste your remote repository URL (e.g., from GitHub).
+
+4. Push to Remote
+Go to VCS > Git > Push, or press Ctrl+Shift+K / Cmd+Shift+K.
+
+Select the branch and click Push.
+
+💡 Optional: First-Time GitHub Push (New Repo)
+If this is your first push to a new GitHub repo:
+
+Create a new repo on GitHub (without README if you already have one locally).
+
+Copy the URL.
+
+In terminal (or PyCharm terminal), add the remote manually:
+
+bash
+Copy
+Edit
+git remote add origin https://github.com/yourusername/yourrepo.git
+git push -u origin master  # or main, depending on your branch
